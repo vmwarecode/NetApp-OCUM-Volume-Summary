@@ -1,0 +1,1015 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1580989955860,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "7febf2e5-2f2f-4826-b030-5c121e971bfd",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "NetApp OCUM Volume Summary",
+      "rank": 684,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "c389711a-4d6b-4447-adbc-9177cad2afa5"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "5246ac11-a7f3-46b9-96d2-2756ed850bc6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "79b8a9b1-33cf-4946-af0b-641ff0a6822c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "854182b2-7600-435e-8c04-dfbe4efe71e0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "ae058dfe-487b-47ed-8ac6-6aa5ed11386c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "ae858170-1072-4445-ad60-45372c6de2d5"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "275a13c6-a823-4de8-aae1-ce80c72fbc3c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "widgetIdReceiver": "05da8298-0110-4796-a9ea-4f01dd470d0c"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Quota Committed (GB)",
+                     "metricKey": "User Configuration|quota_committed_capacity",
+                     "metricName": "User Configuration|Quota Committed Capacity (GiB)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Quota Over Committed (GB)",
+                     "metricKey": "User Configuration|quota_over_committed_capacity",
+                     "metricName": "User Configuration|Quota Over Committed Capacity (GiB)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Snapshot Auto Delete",
+                     "metricKey": "User Configuration|snapshot_auto_delete",
+                     "metricName": "User Configuration|Snapshot Auto Delete",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "NetApp OCUM Volumes"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 381,
+            "id": "9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+            "states": [{
+               "key": "permResGrid_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_9160df63-c491-4be1-a80b-3cc9eef7f9a1",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A259.220703125%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A157.203125%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A148.185546875%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A191.142578125%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A172.3515625%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A208.55859375%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "NetApp OCUM Volumes",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "metricLabel": "",
+               "metricName": "",
+               "metricType": {"metricType": "health"},
+               "metricUnit": {
+                  "metricUnitId": null,
+                  "metricUnitName": ""
+               },
+               "mode": "all",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": null,
+               "title": "Health Chart (for selected Volume)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 210,
+            "id": "c389711a-4d6b-4447-adbc-9177cad2afa5",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_c389711a-4d6b-4447-adbc-9177cad2afa5",
+               "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "Health Chart (for selected Volume)",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alert List (for selected Volume)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 381,
+            "id": "5246ac11-a7f3-46b9-96d2-2756ed850bc6",
+            "states": [
+               {
+                  "key": "permViewMode_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_5246ac11-a7f3-46b9-96d2-2756ed850bc6",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_5246ac11-a7f3-46b9-96d2-2756ed850bc6",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_5246ac11-a7f3-46b9-96d2-2756ed850bc6",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A355.794921875%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alert List (for selected Volume)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-1",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|auto_grow",
+                        "metricName": "Details|Auto Grow",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-5",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|compression",
+                        "metricName": "Details|Compression",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-6",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|deduplication",
+                        "metricName": "Details|Deduplication",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-7",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|full_paths",
+                        "metricName": "Details|Full Paths",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-10",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|protection_role",
+                        "metricName": "Details|Protection Role",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-12",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|resource_key",
+                        "metricName": "Details|Resource Key",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-14",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|snap_lock_type",
+                        "metricName": "Details|SnapLock Type",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-15",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|space_guarantee",
+                        "metricName": "Details|Space Guarantee",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-16",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Details|svm_id",
+                        "metricName": "Details|SVM ID",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel14630-17",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "Details|thin_provisioned",
+                        "metricName": "Details|Thin Provisioned",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": true},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "Property Details (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 5
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 8
+            },
+            "height": 210,
+            "id": "79b8a9b1-33cf-4946-af0b-641ff0a6822c",
+            "title": "Property Details (for selected Volume)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 8,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel31754-1",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "Capacity|available_data",
+                        "metricName": "Capacity|Available Data",
+                        "metricUnitId": -1,
+                        "orangeBound": 4,
+                        "redBound": 3,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": 5
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|available_data_capacity",
+                        "metricName": "Capacity|Available Data Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|compression_space_savings",
+                        "metricName": "Capacity|Compression Space Savings",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|daily_growth_rate",
+                        "metricName": "Capacity|Daily Growth Rate",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|days_to_full",
+                        "metricName": "Capacity|Days To Full",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-6",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|deduplication_space_savings",
+                        "metricName": "Capacity|Deduplication Space Savings",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-7",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|inode_utilization",
+                        "metricName": "Capacity|Inode Utilization",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-8",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_overflow",
+                        "metricName": "Capacity|Snapshot Overflow",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-9",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_reserve_available",
+                        "metricName": "Capacity|Snapshot Reserve Available",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-10",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_reserve_available_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Available Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-11",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_reserve_total_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Total Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-12",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_reserve_used",
+                        "metricName": "Capacity|Snapshot Reserve Used",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-13",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|snapshot_reserve_used_capacity",
+                        "metricName": "Capacity|Snapshot Reserve Used Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-14",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|total_data_capacity",
+                        "metricName": "Capacity|Total Data Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 0,
+                        "id": "extModel31754-15",
+                        "isStringMetric": false,
+                        "label": "",
+                        "link": "",
+                        "metricKey": "Capacity|used_data",
+                        "metricName": "Capacity|Used Data",
+                        "metricUnitId": -1,
+                        "orangeBound": 96,
+                        "redBound": 97,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": 95
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel31754-16",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Capacity|used_data_capacity",
+                        "metricName": "Capacity|Used Data Capacity",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Capacity Scoreboard (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 17
+            },
+            "height": 381,
+            "id": "ae858170-1072-4445-ad60-45372c6de2d5",
+            "title": "Capacity Scoreboard (for selected Volume)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel23127-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|iops",
+                     "metricName": "Performance|IOPS",
+                     "metricUnitId": "operationsps",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "NetApp OCUM Volume",
+                     "unit": "operations/s",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "IOPS for selected Volume (operations/s)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 12
+            },
+            "height": 267,
+            "id": "854182b2-7600-435e-8c04-dfbe4efe71e0",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_854182b2-7600-435e-8c04-dfbe4efe71e0",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_854182b2-7600-435e-8c04-dfbe4efe71e0",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_854182b2-7600-435e-8c04-dfbe4efe71e0",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_854182b2-7600-435e-8c04-dfbe4efe71e0",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "IOPS for selected Volume (operations/s)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel28088-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|latency",
+                     "metricName": "Performance|Latency",
+                     "metricUnitId": "milliseconds",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "NetApp OCUM Volume",
+                     "unit": "ms",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Latency for selected Volume (ms)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 12
+            },
+            "height": 267,
+            "id": "ae058dfe-487b-47ed-8ac6-6aa5ed11386c",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_ae058dfe-487b-47ed-8ac6-6aa5ed11386c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_ae058dfe-487b-47ed-8ac6-6aa5ed11386c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_ae058dfe-487b-47ed-8ac6-6aa5ed11386c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_ae058dfe-487b-47ed-8ac6-6aa5ed11386c",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Latency for selected Volume (ms)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel29497-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|throughput",
+                     "metricName": "Performance|Throughput",
+                     "metricUnitId": "mibyteps",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "NetApp OCUM Volume",
+                     "unit": "MiB/s",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Throughput for selected Volume (MB/s)"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 12
+            },
+            "height": 267,
+            "id": "275a13c6-a823-4de8-aae1-ce80c72fbc3c",
+            "states": [
+               {
+                  "key": "permDateRange1_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_275a13c6-a823-4de8-aae1-ce80c72fbc3c",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_275a13c6-a823-4de8-aae1-ce80c72fbc3c",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_275a13c6-a823-4de8-aae1-ce80c72fbc3c",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_7febf2e5-2f2f-4826-b030-5c121e971bfd_275a13c6-a823-4de8-aae1-ce80c72fbc3c",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Throughput for selected Volume (MB/s)",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel44936-1",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "status|state",
+                        "metricName": "Status|State",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel44936-2",
+                        "isStringMetric": true,
+                        "link": "",
+                        "metricKey": "status|STATUS",
+                        "metricName": "Status|Status",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "NetApp OCUM Volume",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Status Scoreboard (for selected Volume)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 5,
+               "y": 5
+            },
+            "height": 153,
+            "id": "05da8298-0110-4796-a9ea-4f01dd470d0c",
+            "title": "Status Scoreboard (for selected Volume)",
+            "type": "Scoreboard"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "NETAPPOCUM_ADAPTER",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "netapp_ocum_bm_exuno_netappocum_volume"
+   }]},
+   "uuid": "a268d638-87ed-413d-ba44-794d281f6ac6"
+}
